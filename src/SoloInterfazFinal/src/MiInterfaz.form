@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MiInterfaz">
+  <grid id="27dc6" binding="MiInterfaz" layout-manager="GridLayoutManager" row-count="12" column-count="12" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="32" y="10" width="1055" height="829"/>
+    </constraints>
+    <properties/>
+    <border type="none" title="         "/>
+    <children>
+      <component id="fb06a" class="javax.swing.JLabel" binding="idlbl">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="123" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="ID:"/>
+        </properties>
+      </component>
+      <component id="86252" class="javax.swing.JLabel" binding="pesolbl">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="123" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Peso:"/>
+        </properties>
+      </component>
+      <component id="8c8d6" class="javax.swing.JLabel" binding="insplbl">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="123" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Inspeccionado:"/>
+        </properties>
+      </component>
+      <component id="64bef" class="javax.swing.JLabel" binding="paislbl">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="123" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="País:"/>
+        </properties>
+      </component>
+      <component id="f4c56" class="javax.swing.JLabel" binding="prioridadlbl">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="123" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Prioridad:"/>
+        </properties>
+      </component>
+      <component id="fb624" class="javax.swing.JLabel" binding="contlbl">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="123" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Contenido: "/>
+        </properties>
+      </component>
+      <component id="3ba37" class="javax.swing.JLabel" binding="remitlbl">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="123" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Remitente:"/>
+        </properties>
+      </component>
+      <component id="fb6b7" class="javax.swing.JLabel" binding="destlbl">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="123" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Destinatario:"/>
+        </properties>
+      </component>
+      <component id="1ba02" class="javax.swing.JButton" binding="verCantidadDeContenedoresButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-11905093"/>
+          <text value="Ver cantidad de contenedores del país"/>
+        </properties>
+      </component>
+      <component id="ded00" class="javax.swing.JTextField" binding="idtxt">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1669b" class="javax.swing.JTextField" binding="pesotxt">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="50f36" class="javax.swing.JComboBox" binding="comboBox1">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Albania"/>
+            <item value="Alemania"/>
+            <item value="Andorra"/>
+            <item value="Austria"/>
+            <item value="Bélgica"/>
+            <item value="Bielorrusia"/>
+            <item value="Bosnia y Herzegovina"/>
+            <item value="Bulgaria"/>
+            <item value="Chipre"/>
+            <item value="Ciudad del Vaticano"/>
+            <item value="Croacia"/>
+            <item value="Dinamarca"/>
+            <item value="Eslovaquia"/>
+            <item value="Eslovenia"/>
+            <item value="España"/>
+            <item value="Estonia"/>
+            <item value="Finlandia"/>
+            <item value="Francia"/>
+            <item value="Grecia"/>
+            <item value="Hungría"/>
+            <item value="Irlanda"/>
+            <item value="Islandia"/>
+            <item value="Italia"/>
+            <item value="Kosovo"/>
+            <item value="Letonia"/>
+            <item value="Liechtenstein"/>
+            <item value="Lituania"/>
+            <item value="Luxemburgo"/>
+            <item value="Malta"/>
+            <item value="Moldavia"/>
+            <item value="Mónaco"/>
+            <item value="Montenegro"/>
+            <item value="Noruega"/>
+            <item value="Países Bajos (Holanda)"/>
+            <item value="Polonia"/>
+            <item value="Portugal"/>
+            <item value="Reino Unido"/>
+            <item value="República Checa"/>
+            <item value="Rumania"/>
+            <item value="Rusia"/>
+            <item value="San Marino"/>
+            <item value="Serbia"/>
+            <item value="Suecia"/>
+            <item value="Suiza"/>
+            <item value="Ucrania"/>
+          </model>
+        </properties>
+      </component>
+      <component id="ed305" class="javax.swing.JCheckBox" binding="inspcheck">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="75604" class="javax.swing.JRadioButton" binding="a1">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="3ae80" class="javax.swing.JRadioButton" binding="a2">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="dae97" class="javax.swing.JRadioButton" binding="a3">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="2403d" class="javax.swing.JTextField" binding="contenidotxt">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="44b8b" class="javax.swing.JTextField" binding="remittxt">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3238b" class="javax.swing.JTextField" binding="desttxt">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b09d5" class="javax.swing.JButton" binding="apilarboton">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Apilar en HUB"/>
+        </properties>
+      </component>
+      <component id="1ca19" class="javax.swing.JTextField" binding="contenedortxt">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="66d42" class="javax.swing.JButton" binding="mostrarboton">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Mostrar HUB "/>
+        </properties>
+      </component>
+      <component id="8430e" class="javax.swing.JLabel" binding="idlblint">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="ID: "/>
+        </properties>
+      </component>
+      <component id="d1287" class="javax.swing.JLabel" binding="titulo2">
+        <constraints>
+          <grid row="6" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-11905093"/>
+          <text value="INDIQUE ID DEL CONTENEDOR"/>
+        </properties>
+      </component>
+      <component id="5871c" class="javax.swing.JTextField" binding="idinttxt">
+        <constraints>
+          <grid row="7" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6cbd3" class="javax.swing.JTextField" binding="arraybuscadotxt">
+        <constraints>
+          <grid row="8" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7fe9e" class="javax.swing.JButton" binding="visboton">
+        <constraints>
+          <grid row="9" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-11289754"/>
+          <text value="Visualizar"/>
+        </properties>
+      </component>
+      <component id="f9ae" class="javax.swing.JButton" binding="visOtroContbtn">
+        <constraints>
+          <grid row="10" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-11289754"/>
+          <text value="Visualizar otro contenedor"/>
+        </properties>
+      </component>
+      <component id="44a6e" class="javax.swing.JButton" binding="atrasbtn">
+        <constraints>
+          <grid row="11" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Atrás"/>
+        </properties>
+      </component>
+      <component id="e1c3b" class="javax.swing.JTextArea" binding="txtmostrado">
+        <constraints>
+          <grid row="1" column="11" row-span="11" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bf50c" class="javax.swing.JButton" binding="crearOtroContenedorButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-11905093"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Crear otro contenedor"/>
+        </properties>
+      </component>
+      <component id="447da" class="javax.swing.JButton" binding="visualizarbtn">
+        <constraints>
+          <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-11905093"/>
+          <text value="Ver contenido de un contenedor"/>
+        </properties>
+      </component>
+      <component id="ed42a" class="javax.swing.JLabel" binding="titulo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-11905093"/>
+          <text value="                                     INSERTE LOS DATOS DEL CONTENEDOR"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="dc85" class="javax.swing.JTextPane" binding="textcontpais">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -11,7 +11,7 @@ public class Contenedor {
     private String nombreRecibe;
     //---------------------------------------------CONSTRUCTORES----------------------------------------------------------
     public Contenedor(int id) {
-        this.prioridad = 3;
+        this.prioridad = 3; //3 será la prioridad por defecto
         this.id = id; //id no puede ser null en ninguna circunstancia por eso este es el constructor más pequeño que se puede hacer
     }
     public Contenedor(int id, int peso, String pais, boolean inspeccionado, int prioridad, String contenido, String nombreEnvia, String nombreRecibe) {
@@ -43,8 +43,7 @@ public class Contenedor {
         if(prioridad>=1 && prioridad<=3){
             this.prioridad = prioridad;
         }else{
-            System.out.println("No se ha podido establecer prioridad " + prioridad +" ya que esta sólo puede adoptar" +
-                    " los valores 1, 2 o 3");
+            System.out.println("No se ha podido establecer prioridad " + prioridad +" ya que esta sólo puede adoptar los valores 1, 2 o 3");
         }
     }
     public int getPrioridad (){
@@ -70,8 +69,7 @@ public class Contenedor {
     }
     //------------------------------------------------------------------------------------------------------------------------
     public String toString (){
-        String str = "";
-        str += "ID: " + id + ", Peso: " + peso + ", País procedencia: " + pais;
+        String str = "ID: " + id + ", Peso: " + peso + ", País procedencia: " + pais;
         if(inspeccionado) str += ", Ya ha sido inspeccionado";
         if(!inspeccionado) str += ", En espera de inspección";
         str += ", Prioridad: " + prioridad + ", Contenido: " + contenido + ", Remitente: " + nombreEnvia + ", Destinatario: " + nombreRecibe;
